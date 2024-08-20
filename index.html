@@ -3,97 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Emile Dupont</title>
+    <title>Portfolio Emile Dupont</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <aside>
-            <div class="profile-picture">
-                <img src="profile-picture.jpg" alt="Emile Dupont">
-            </div>
-            <div class="contact-info">
-                <h2>Emile Dupont</h2>
-                <p>Motivé et dynamique, je suis à la recherche d’un stage en finance du 01/07/2014 au 31/07/2024.</p>
-                <ul>
-                    <li><strong>Téléphone :</strong> 07 83 34 12 03</li>
-                    <li><strong>Email :</strong> dupont.emile@outlook.fr</li>
-                    <li><strong>Adresse :</strong> 72 rue Henri Barbusse, 92190 Meudon</li>
-                    <li><strong>LinkedIn :</strong> <a href="#">Emile Dupont</a></li>
-                </ul>
-            </div>
-            <div class="sidebar-section">
-                <h3>Intérêts</h3>
-                <p>SPORT</p>
-                <p>6 ans d'athlétisme, 4 participations aux CDF, 5 ans de tennis</p>
-                <p>MUSIQUE</p>
-                <p>7 ans de guitare</p>
-                <p>INNOVATIONS TECH</p>
-                <p>LUXE</p>
-            </div>
-            <div class="sidebar-section">
-                <h3>Compétences</h3>
-                <p>English (BI Cambridge)</p>
-                <p>Spanish</p>
-                <p>Pack Office</p>
-                <p>Réseaux sociaux</p>
-            </div>
-        </aside>
 
-        <main>
-            <section class="experience">
-                <h2>Expérience</h2>
-                <div class="job">
-                    <h3>Vendeur - Paris - Juillet 2023</h3>
-                    <h4>Le Slip Français</h4>
-                    <p>Gestion complète de la boutique historique, de l'ouverture à la fermeture.</p>
-                    <p>Responsable du merchandising pendant les périodes de soldes.</p>
-                    <p>Développement de stratégies de vente pour augmenter l'indice de vente et le panier moyen des clients.</p>
-                </div>
-                <div class="job">
-                    <h3>Coach Sportif</h3>
-                    <h4>AS Meudon Athlétisme</h4>
-                    <p>Accompagnement des jeunes athlètes avec un suivi de leurs progrès.</p>
-                    <p>Planification d'entraînements pour assurer la cohérence entre les séances.</p>
-                    <p>Coordination avec d'autres entraîneurs.</p>
-                </div>
-                <div class="job">
-                    <h3>Observation</h3>
-                    <h4>Fédération Française d'Athlétisme</h4>
-                    <p>Découverte du pôle Trail Running et rédaction d'articles analytiques. Fonctionnement des associations à échelle.</p>
-                </div>
-                <div class="job">
-                    <h3>Baby-Sitting</h3>
-                    <p>Garde d'enfant et aide aux devoirs (2018 - 2023)</p>
-                </div>
-            </section>
+    <!-- Page d'accueil -->
+    <section id="home" class="section active">
+        <div class="header">
+            <img src="/Users/Productivif/Library/CloudStorage/OneDrive-LGTNotreDameduGrandchamp/Pro/CV/9B7037DB-B7C1-4189-AF49-3A8855B70051_1_105_c.jpg" alt="Photo de Emile Dupont" class="profile-pic">
+            <h1>Emile Dupont</h1>
+            <p>Motivé et dynamique, à la recherche d'opportunités en finance</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/emiledupont" target="_blank">LinkedIn</a>
+                <a href="https://github.com/emiledupont" target="_blank">GitHub</a>
+                <!-- Ajoute d'autres liens ici -->
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" data-target="experience">Expériences Professionnelles</a></li>
+                <li><a href="#" data-target="formations">Formations</a></li>
+                <li><a href="#" data-target="qualites">Qualités</a></li>
+                <li><a href="#" data-target="benevolat">Bénévolat</a></li>
+                <!-- Ajoute d'autres sections ici -->
+            </ul>
+        </nav>
+    </section>
 
-            <section class="formation">
-                <h2>Formations</h2>
-                <div class="education">
-                    <h3>CPGE ECT</h3>
-                    <h4>Notre-Dame du Grandchamp, Versailles (2023-2025)</h4>
-                    <p>Continuité de la STMG. Approfondissement des notions théoriques, notamment à travers l’ajout de thèses d’auteurs.</p>
-                    <p>Rigueur, charge de travail élevée, dépassement de soi.</p>
-                </div>
-                <div class="education">
-                    <h3>BAC STMG</h3>
-                    <h4>Notre-Dame du Grandchamp (2021-2023)</h4>
-                    <p>Admis avec mention très bien. Découverte du Management, du Droit-Économie.</p>
-                    <p>Enseignement spécifique Gestion-Finance.</p>
-                </div>
-            </section>
+    <!-- Sections de contenu cachées au départ -->
+    <section id="experience" class="section">
+        <h2>Expériences Professionnelles</h2>
+        <p><!-- Ajoute tes expériences ici --></p>
+    </section>
 
-            <section class="benevolat">
-                <h2>Bénévolat / Associatif</h2>
-                <ul>
-                    <li>Association Massabielle dans les quartiers pauvres de Marseille (2023)</li>
-                    <li>Ecotrail de Paris (2021)</li>
-                    <li>Ultra Trail Du Mont Blanc (2016-2021)</li>
-                    <li>Réalisation du sweat Objet de Promo de mon année de terminale</li>
-                </ul>
-            </section>
-        </main>
-    </div>
+    <section id="formations" class="section">
+        <h2>Formations</h2>
+        <p><!-- Ajoute tes formations ici --></p>
+    </section>
+
+    <section id="qualites" class="section">
+        <h2>Qualités</h2>
+        <p><!-- Ajoute tes qualités ici --></p>
+    </section>
+
+    <section id="benevolat" class="section">
+        <h2>Bénévolat</h2>
+        <p><!-- Ajoute tes expériences de bénévolat ici --></p>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
